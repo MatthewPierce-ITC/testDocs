@@ -2,7 +2,7 @@
 layout: page
 title: Text File Import
 permalink: /import/
-nav_order: 2
+nav_order: 3
 parent: Create Designations
 ---
 
@@ -13,7 +13,7 @@ Importing is a very fast and easy method to get your clips into the proper forma
 ![Screen Grab - Manual Import Menu Item](../assets/ui_menu_settings_cropped.png)
 
 Make sure that the file you are importing is a plain text file and that each line contains only one designation. A good rule of thumb is that if it is not readable Notepad, it won't work in Clip Creator. Like the [Clipboard Polling](create_designations_clipboard.markdown) feature, Clip Creator is very flexible when it comes to citations. For example, a file containing the following will process without errors:
-```
+> ```
 06:05-06:07
 8:11-8;15
 8-21-10-06
@@ -24,12 +24,14 @@ Page 10 Line 15 - Page 10 Line 18
 13 07 15
 15:16
 ```
+
 A cleaner import file often helps resolve problems before they begin. The example on the next page shows a short import list and the resulting clips in Clip Creator using the Trial Director format.
 
 If you are using Trial Director, clips that do not have a blank line in-between will be considered multi-segments and imported accordingly. You may easily modify the groupings once they are in Clip Creator with the Rebuild feature.
 
 Import File Contents:
-```
+
+> ```
 06:05-06:07
 08:11-08:15
 08:21-10:06
@@ -44,4 +46,7 @@ Import File Contents:
 22:18-25:12
 29:12-30:09
 ```
+
+Once the process is complete, all of the clips should appear in both the Clips window and the data grid at the bottom of the applicaiton window.
+
 ![Screen Grab Clip Creator Import File Processed](../assets/import_complete.png)
