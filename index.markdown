@@ -5,7 +5,7 @@ nav_exclude: true
 ---
 ### Welcome to Clip Creator 3.0!
 
-> ![Screen Grab - User Interface](../assets/ui.png)
+> ![Screen Grab - User Interface](assets/ui.png)
 
 With Clip Creator you will be able to quickly process deposition designations through manual entry, by importing preformated files, or clipboard polling.  Each designation will also go through a series of validation checks which will trap invalid ranges.  Some of these include:
 
