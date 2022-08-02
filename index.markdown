@@ -4,22 +4,17 @@ title: Home
 nav_exclude: true
 ---
 ### Welcome to Clip Creator 3.0!
-<br>
 
-With Clip Creator you will be able to quickly process deposition designations via manual entry, importing preformated files, or clipboard polling. 
+> ![Screen Grab - User Interface](../assets/ui.png)
 
-The manual entry method is designed for use with your keyboard's 10-key pad, allowing the user to 
-move from one field to the next by hitting the Enter key. Each successive entry will be checked to trap any typos which may result in invalid ranges.
+With Clip Creator you will be able to quickly process deposition designations through manual entry, by importing preformated files, or clipboard polling.  Each designation will also go through a series of validation checks which will trap invalid ranges.  Some of these include:
 
+> - Negative length clips: End point is before before start point (10:12 through 10:05)
+> - Subset clips: Designation appears inside a previous designation
+> - Superset clips: Designation encompasses a previous designation
+> - Overlapping clips: Designation starts or stops in the middle of a previous designation 
+> - Duplicate clips
 
-Clip Creator 3.0 will trap a wide variety of designation errors that are usually not realized until after you import the clips into your presentation system. Some of these include:
+In these instances Clip Creator will prompt you with a several of options to either resolve or ignore the errors.
 
-- Negative length clips: End set before beginning
-- Subset clips: Designation appears inside a previous designation
-- Superset clips: Designation encompasses a previous designation
-- Overlapping clips: Designation starts or stops in the middle of a previous designation 
-- Duplicate Clip ID’s
-
-In these instances Clip Creator will prompt you with a variety of options that will allow you to either  resolve or ignore the errors.
-
-Additionally, Clip Creator supports a variety of export formats making it an invaluable tool no matter what presentation system you are using.
+Clip Creator offers a variety of export formats making it an invaluable tool no matter what trial presentation system you are using: TrialDirector, TrialMax, or Sanction.
